@@ -1,6 +1,8 @@
 common_packages:
   pkg.installed:
     - pkgs:
-      - htop
-      - strace
-      - vim
+      - build-essential
+      - zlib1g-dev
+      - libssl-dev
+      - libreadline6-dev
+      - libyaml-dev
